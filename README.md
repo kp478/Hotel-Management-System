@@ -6,7 +6,7 @@ This C++ mini project is a simple Hotel Management System that demonstrates the 
 - **Check Out**: Remove a guest from a specified room, making the room available again.
 - **Display Rooms**: View the status of all rooms, showing whether they are occupied or vacant.
 
-The system uses three main classes: `Room`, `Guest`, and `Hotel`. The `Hotel` class manages a linked list of rooms and guests, providing methods to add rooms, check in guests, check out guests, and display the current room statuses. 
+The system uses three main classes: `Room`, `Guest`, and `Hotel`. The `Hotel` class manages a linked list of rooms and guests, providing methods to add rooms, check in guests, check out guests, and display the current room statuses.
 
 ## Features:
 - **Room Management**: Track room numbers and their occupancy status.
@@ -21,11 +21,11 @@ The system uses three main classes: `Room`, `Guest`, and `Hotel`. The `Hotel` cl
 ## How to Run:
 1. Clone the repository.
     ```sh
-    git clone https://github.com/yourusername/hotel-management-system.git
+    git clone https://github.com/kp478/Hotel-Management-System.git
     ```
 2. Navigate to the project directory.
     ```sh
-    cd hotel-management-system
+    cd Hotel-Management-System
     ```
 3. Compile the code using a C++ compiler.
     ```sh
@@ -35,18 +35,3 @@ The system uses three main classes: `Room`, `Guest`, and `Hotel`. The `Hotel` cl
     ```sh
     ./HotelManagement
     ```
-
-## Example Usage:
-```plaintext
-Hotel Management System
----------------------------------------
-Welcome to our Hotel!
-What do you like to do?
-1. Check In
-2. Check Out
-3. Display Rooms
-4. Exit
-Enter your choice: 1
-Enter the guest name: John
-Enter the room number: 5
-Guest John checked in to room 5
