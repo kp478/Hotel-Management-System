@@ -29,9 +29,10 @@ The system uses three main classes: `Room`, `Guest`, and `Hotel`. The `Hotel` cl
     ```
 3. Compile the code using a C++ compiler.
     ```sh
-    g++ HotelManagement.cpp -o HotelManagement
+    g++ main.cpp -o HotelManagement
     ```
 4. Run the executable.
     ```sh
     ./HotelManagement
     ```
+
